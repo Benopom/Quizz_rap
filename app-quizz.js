@@ -84,6 +84,7 @@ switch (note) {
     case 5 :{
         messageResult.textContent = "Bravo !";
         noteResult.textContent = `${note}/5 🥳`;
+        quotesDiv.innerHTML = "";
         eddieShow();
     break;}
 
