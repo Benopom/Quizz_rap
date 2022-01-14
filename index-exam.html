@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Quizz music exercice</title>
+        <link rel="stylesheet" href=style-exam.css>
+        <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <h1>Quizz Culture Rap 🎤</h1> 
+
+        <div class="globalcontainer">
+
+            <form class="form-quizz">
+
+                <div class=box_questions>
+                        <h4>Qu'est-ce que "poser un 16" en rap ?</h4>
+                    <div class=reponse>
+                        <input type="radio" id="secondes" value="a" name="Q1" checked>
+                        <label for="secondes">Poser pendant 16 secondes</label>
+                    </div>
+                    <div class=reponse>
+                        <input type="radio" id="rimes" value="b" name="Q1" >
+                        <label for="rimes">Enchainer 16 rimes</label>
+                    </div>
+                    <div class=reponse>
+                        <input type="radio" id="mesures" value="c" name="Q1" >
+                        <label for="mesures">Poser sur 16 mesures</label>
+                    </div>
+                </div>
+
+
+                 <div class=box_questions>
+                        <h4>En quelle année est sorti le film "8 mile" ?</h4>
+                    <div class=reponse>
+                        <input type="radio" id="2000" value="a" name="Q2" checked>
+                        <label for="2000">2000</label>
+                    </div>
+                    <div class=reponse>
+                        <input type="radio" id="2002" value="b" name="Q2">
+                        <label for="2002">2002</label>
+                    </div>
+                    <div class=reponse>
+                        <input type="radio" id="2004" value="c" name="Q2">
+                        <label for="2004">2004</label>
+                    </div>
+                </div>
+
+                <div class=box_questions>
+                        <h4>Quel est l'autre nom du rappeur "Darryl Zeuja", membre du groupe 1995 ?</h4>
+                    <div class=reponse>
+                        <input type="radio" id="Fonky Flav'" value="a" name="Q3" checked>
+                        <label for="Fonky Flav'">Fonky Flav'</label>
+                    </div>
+                    <div class=reponse>
+                        <input type="radio" id="Lomepal" value="b" name="Q3">
+                        <label for="Lomepal">Lomepal</label>
+                    </div>
+                    <div class=reponse>
+                        <input type="radio" id="Areno Jaz" value="c" name="Q3">
+                        <label for="Areno Jaz">Areno Jaz</label>
+                    </div>
+                </div>
+
+                <div class=box_questions>
+                        <h4>Combien d'albums Jul a-t-il publié depuis ses débuts en 2014 ?</h4>
+                    <div class=reponse>
+                        <input type="radio" id="7" value="a" name="Q4" checked>
+                        <label for="7">7</label>
+                    </div>
+                    <div class=reponse>
+                        <input type="radio" id="11" value="b" name="Q4">
+                        <label for="11">11</label>
+                    </div>
+                    <div class=reponse>
+                        <input type="radio" id="17" value="c" name="Q4">
+                        <label for="17">17</label>
+                    </div>
+                </div>
+
+                <div class=box_questions>
+                     <h4>Avec 1,6 millions de disques écoulés, quel est l'album de rap le plus vendu de tous les temps ?</h4>
+                    <div class=reponse>
+                        <input type="radio" id="L'école du micro d'argent" value="a" name="Q5" checked>
+                        <label for="L'école du micro d'argent">L'école du micro d'argent</label>
+                     </div>
+                    <div class=reponse>
+                        <input type="radio" id="Suprême NTM" value="b" name="Q5">
+                        <label for="Suprême NTM">Suprême NTM</label>
+                    </div>
+                    <div class=reponse>
+                    <input type="radio" id="Dans la légende" value="c" name="Q5">
+                    <label for="Dans la légende">Dans la légende</label>
+                    </div>
+                </div>
+            
+
+                <button type="submit">Valider mes réponses</button>
+
+            </form>
+        
+
+            <div class="resultats">
+                
+                <h2> Validez pour voir vos résultats </h2>
+                
+                <div class="note"></div>
+
+                <p class="aide">
+                    
+                </p> 
+                <br>
+                <div id="quote"></div>
+
+                <div class="img" > </div>
+
+                
+            </div>
+        </div>
+
+        <script src="app-exam.js"></script>
+    </body>
+
+</html>
