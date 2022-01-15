@@ -15,8 +15,9 @@ h1 {
 
 .globalcontainer{
     /*background-color: lightblue;*/
-    width: 70%; 
+    width: 90%; 
     max-width: 800px;
+    min-width: 300px;
     margin: 0 auto; /* pour mettre au centre mettre auto */
     height: auto;
 }
